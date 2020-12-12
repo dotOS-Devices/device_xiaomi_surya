@@ -194,3 +194,7 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     GalleryGo \
     Gboard
+
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
