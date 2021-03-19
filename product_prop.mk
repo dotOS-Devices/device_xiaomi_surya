@@ -51,6 +51,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     vendor.display.disable_rotator_downscale=1 \
     ro.surface_flinger.has_wide_color_display=false
 
+
+# IORAP
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.iorapd.enable=true
+
 # LMKD
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.low_ram=false \
