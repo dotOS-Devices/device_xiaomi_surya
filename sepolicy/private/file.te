@@ -18,3 +18,10 @@ type qr_code_file, fs_type;
 type vendor_firmware_file, vendor_file_type, file_type;
 
 type sysfs_fps, sysfs_type, fs_type;
+
+# Smart Charging
+type sysfs_scharge, sysfs_type, fs_type;
+
+# USB Fastcharge
+type sysfs_fcharge, sysfs_type, fs_type;
+type sysfs_fastcharge, sysfs_type, fs_type;

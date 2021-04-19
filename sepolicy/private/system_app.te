@@ -1,5 +1,6 @@
 permissive system_app;
 
+get_prop(system_app, vendor_default_prop)
 allow system_app vendor_default_prop:file { getattr open read };
 allow system_app vendor_default_prop:file {map};
 
@@ -8,3 +9,11 @@ allow system_app sysfs_kgsl:file r_file_perms;
 allow system_app sysfs_graphics:dir search;
 allow system_app sysfs_graphics:file r_file_perms;
 get_prop(system_app, vendor_camera_prop);
+
+# Smart Charging
+allow system_app sysfs_scharge:file { getattr open write };
+
+# PocoParts
+allow system_app sysfs_fcharge:file { open read getattr write };
+allow system_app sysfs_fastcharge:file { open read getattr write };
+

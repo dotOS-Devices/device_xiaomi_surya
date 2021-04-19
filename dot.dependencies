@@ -11,4 +11,9 @@
         "target_path":  "kernel/xiaomi/surya",
         "branch":     "11.0"
     },
+    {
+        "remote":       "github",
+        "repository":   "ChrisW444/vendor_PocoParts",
+        "target_path":  "vendor/PocoParts",
+        "branch":     "11"
 ]

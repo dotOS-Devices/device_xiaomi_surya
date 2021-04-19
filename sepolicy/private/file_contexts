@@ -24,3 +24,9 @@
 
 # Measured FPS
 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps                      u:object_r:sysfs_fps:s0
+
+# Force Fast Charge
+/sys/kernel/fast_charge/force_fast_charge                            u:object_r:sysfs_fastcharge:s0
+
+# Smart Charging
+/sys/class/power_supply/battery/charging_enabled                    u:object_r:sysfs_scharge:s0
