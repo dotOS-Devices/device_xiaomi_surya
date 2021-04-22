@@ -15,3 +15,10 @@ allow init null_device:chr_file mounton;
 allow init sysfs:file setattr;
 allow init system_file:file mounton;
 allow init vendor_configs_file:file mounton;
+
+# SELinux
+allow init su:process { noatsecure  rlimitinh  siginh  transition };
+allow init vendor_file:file { execute execute_no_trans };
+
+# USB Fastcharge
+allow init sysfs_fcharge:file { write open };
