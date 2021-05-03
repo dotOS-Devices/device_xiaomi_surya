@@ -30,6 +30,17 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
     ro.sf.blurs_are_expensive=1
 
+# Gboard
+    ro.com.google.ime.corner_key_r=35 \
+    ro.com.google.ime.kb_pad_port_l=7 \
+    ro.com.google.ime.kb_pad_port_r=7 \
+    ro.com.google.ime.kb_pad_land_l=14 \
+    ro.com.google.ime.kb_pad_land_r=14 \
+    ro.com.google.ime.kb_pad_port_b=1 \
+    ro.com.google.ime.theme_id=5 \
+    ro.com.google.ime.bs_theme=true \
+    ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms
+
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiavk \
