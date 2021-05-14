@@ -29,6 +29,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     public void onReceive(final Context context, Intent intent) {
 
         // Thermal Profiles
-        ThermalUtils.startService(context);
+        ThermalUtils.initialize(context);
     }
 }
