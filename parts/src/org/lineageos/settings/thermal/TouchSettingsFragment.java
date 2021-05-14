@@ -132,4 +132,3 @@ public class TouchSettingsFragment extends PreferenceFragment
         writeTouchValues(finalValues);
     }
 }
-

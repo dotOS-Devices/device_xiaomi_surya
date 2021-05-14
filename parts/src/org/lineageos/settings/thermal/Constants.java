@@ -32,4 +32,3 @@ public class Constants {
     public static final String PREF_TOUCH_RESPONSE = "touch_response";
     public static final String PREF_TOUCH_SENSITIVITY = "touch_sensitivity";
 }
-
