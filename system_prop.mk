@@ -17,10 +17,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=440
 
-# Fingerprint Payment for China apps
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.vendor.sys.pay.ifaa=1
-
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.mm.enable.qcom_parser=131071983
