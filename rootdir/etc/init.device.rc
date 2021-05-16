@@ -14,6 +14,12 @@ on init
     chown system system /sys/devices/platform/soc/soc:qcom,dsi-display/dsi_display_cabc_movie
     chown system system /sys/devices/platform/soc/soc:qcom,dsi-display/dsi_display_cabc_still  
 
+    # Thermal
+    chmod 0664 /sys/class/thermal/thermal_message/sconfig
+    chown system system /sys/class/thermal/thermal_message/sconfig
+    chmod 0666 /sys/class/thermal/thermal_message/temp_state
+    chown system system /sys/class/thermal/thermal_message/temp_state
+
 on property:ro.boot.hwc=*
     setprop vendor.boot.hwc ${ro.boot.hwc}   
 
