@@ -1,0 +1,1 @@
+allow untrusted_app_25 user_profile_data_file:dir { remove_name };
