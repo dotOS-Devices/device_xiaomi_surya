@@ -1,19 +1,14 @@
 [
     {
-        "remote":       "github",
-        "repository":   "stellabyte2/android_vendor_xiaomi_surya",
-        "target_path":  "vendor/xiaomi/surya",
-        "branch":     "eleven"
+        "repository":   "proprietary_vendor_xiaomi_surya",
+        "target_path":  "vendor/xiaomi/surya"
     },
     {
-        "remote":       "github",
-        "repository":   "GZR-Kernels/Optimus_Drunk_Surya",
-        "target_path":  "kernel/xiaomi/surya",
-        "branch":     "11.0"
+        "repository":   "android_kernel_xiaomi_surya",
+        "target_path":  "kernel/xiaomi/surya"
     },
     {
-        "remote":       "github",
-        "repository":   "ChrisW444/vendor_PocoParts",
-        "target_path":  "vendor/PocoParts",
-        "branch":     "11"
+        "repository":   "vendor_PocoParts",
+        "target_path":  "vendor/PocoParts"
+    }
 ]
