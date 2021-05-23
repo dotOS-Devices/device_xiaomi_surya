@@ -13,6 +13,16 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.bt.a2dp.aac_whitelist=false \
     ro.bluetooth.library_name=libbluetooth.so
 
+# Dirac
+PRODUCT_PROPERTY_OVERRIDES += \
+    hpx_send_params=1 \
+    ro.audio.soundfx.dirac=true \
+    ro.audio.dirac=true \
+    persist.audio.dirac.speaker=true \
+    persist.dirac.acs.controller=qem \
+    persist.dirac.acs.storeSettings=1 \
+    persist.dirac.acs.ignore_error=1
+
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=440
