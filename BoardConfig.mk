@@ -9,6 +9,9 @@ BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
 DEVICE_PATH := device/xiaomi/surya
 
+# Skip Boot Jar check
+SKIP_BOOT_JARS_CHECK := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
