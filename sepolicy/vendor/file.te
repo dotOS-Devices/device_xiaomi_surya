@@ -1,3 +1,0 @@
-# KCAL
-type kcal_dev, sysfs_type, fs_type;
-type proc_kcal_file, sysfs_type, fs_type;

@@ -69,9 +69,7 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 $(call inherit-product-if-exists, vendor/PocoParts/pocoparts.mk)
 
 PRODUCT_PACKAGES += \
-    XiaomiParts \
-    init.pocoparts.rc \
-    init.pocoparts.sh
+    XiaomiParts
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-parts.xml
