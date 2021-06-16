@@ -65,6 +65,10 @@ PRODUCT_PACKAGES += \
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
+# Device properties
+include $(LOCAL_PATH)/device_prop.mk
+
+
 # Device Settings
 $(call inherit-product-if-exists, vendor/PocoParts/pocoparts.mk)
 
