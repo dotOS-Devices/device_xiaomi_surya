@@ -17,5 +17,23 @@
        "remote"      : "github",
        "branch"      : "lineage-18.1"
    }
-
+   },
+   {
+       "repository"  : "Surya-Project/android_hardware_qcom_display",
+       "target_path" : "hardware/qcom-caf/sm8150-surya/display",
+       "remote"      : "github",
+       "branch"      : "lineage-18.1-caf-sm8150"
+   },
+   {
+       "repository"  : "Surya-Project/android_hardware_qcom_media",
+       "target_path" : "hardware/qcom-caf/sm8150-surya/media",
+       "remote"      : "github",
+       "branch"      : "lineage-18.1-caf-sm8150"
+   },
+   {
+       "repository"  : "Surya-Project/android_hardware_qcom_audio",
+       "target_path" : "hardware/qcom-caf/sm8150-surya/audio",
+       "remote"      : "github",
+       "branch"      : "lineage-18.1-caf-sm8150"
+   }
 ]
