@@ -8,6 +8,10 @@
       "target_path"  : "kernel/xiaomi/surya"
    },
    {
+      "repository"   : "vendor_PocoParts",
+      "target_path"  : "vendor/PocoParts"
+   },
+   {
        "repository"  : "Surya-Project/android_hardware_qcom_display",
        "target_path" : "hardware/qcom-caf/sm8150-surya/display",
        "remote"      : "github",
