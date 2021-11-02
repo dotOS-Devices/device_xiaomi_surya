@@ -32,7 +32,7 @@
 fdatasync: 1
 getdents64: 1
 gettimeofday: 1
-#ioctl: arg1 == _IOC(_IOC_NONE || arg1 == _IOC(_IOC_READ || arg1 == VSOC_MAYBE_SEND_INTERRUPT_TO_HOST
+ioctl: 1
 lseek: 1
 madvise: 1
 mkdirat: 1
